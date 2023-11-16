@@ -332,9 +332,41 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <Style>
     .carousel-caption {
-      background-color: rgb(78, 9, 228);
+      background-color: rgb(9, 49, 228);
     }
   </Style>
+
+<body>
+  <style>
+    .texto-derecha {
+      float: right;
+      /* Utiliza float para colocar el texto a la derecha */
+      /* Otras propiedades de estilo si es necesario */
+      margin-left: 20px;
+      /* Agrega un margen izquierdo para separar el texto de la imagen */
+      width: 50%;
+      /* Define un ancho para el texto, ajusta según sea necesario */
+    }
+  </style>
+  <style>
+    .texto-derecha {
+      float: right;
+      margin-left: 20px;
+      width: 50%;
+    }
+
+    /* Agregamos una clase de estilo personalizado para el texto principal */
+    .texto-azul {
+      color: rgb(9, 0, 85);
+      /* Azul de Bootstrap */
+    }
+
+    /* Clase de color azul personalizada */
+    .texto-azul {
+      color: #007BFF;
+      /* Azul de Bootstrap */
+    }
+  </style>
 
   <ul class="nav justify-content-center">
 
@@ -356,10 +388,6 @@
 
   </ul>
   <style>
-    .text-md-lef {
-      text-align: left;
-      /* Ajusta la alineación según tus necesidades */
-    }
   </style>
   <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -414,7 +442,7 @@
 
   <!-- inicio del contenedor -->
 
-<body>
+
   <!-- Navbar Start -->
   <div class="container-fluid p-0 mb-5">
     <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-0">
@@ -517,27 +545,35 @@
       </div>
     </div>
   </div>
-  <!-- Facts End -->b
+  <!-- Facts End -->
 
 
   <!-- Features Start -->
-  <div class="text-center">
-    <div class="row">
-      <div class="text-center">
-        <h5 class="text-primary mb-3">¿Por qué elegirnos?</h5>
-        <h1 class="mb-4">Tu tienda virtual.com de alto nivel</h1>
-        <img class="img-thumbnail mb-4 p-3"
-          src="https://firebasestorage.googleapis.com/v0/b/imagenes-e192b.appspot.com/o/tienda%20virtual%2010.8.jpg?alt=media&token=3757e268-a7ad-4fc1-9f6a-b5ac0c720ec2"
-          alt="Image">
-        <h1 class="px-3 px-3 px-3 px-sm-3">SOMOS UN EQUIPO QUE INNOVAMOS Y LE DAMOS RESULTADOS A TU NEGOCIO</h1>
-        <p>En TiendaVirtual.com, nos enorgullece ser pioneros en la revolución del comercio en línea. Nos destacamos por
+  <div class="row">
+    <div class="col">
+      <h5 class="text-center">¿Por qué elegirnos?</h5>
+      <h1 class="text-center">BIENVENIDO A TU TIENDA VIRTUAL.BLUE</h1>
 
-
-        <section><a href="" class="btn btn-lg btn-primary mt-2">Aprende más</a>
-
+      <div class="text-bg-light py-lg m-3 py-m-3 px-lg-3">
+        <h5 class="text-center">Sobre nosotros</h5>
+        <p class="texto-derecha">En Tienda Virtual Blue, nos inspiramos en la inmensidad del mar y los cielos, buscando
+          ofrecer a nuestros clientes una experiencia tan expansiva como el horizonte. Navega por nuestro extenso
+          catálogo y descubre la prosperidad de opciones que hemos preparado para ti. En cada compra, te sumergirás en
+          un océano de posibilidades, donde la calidad y la amplitud se unen para crear una experiencia de compra única.
+          ¡Explora, elige y eleva tus expectativas con Tienda Virtual Blue!Queremos llevarte a otro nivel e Innovar
+          darle estylo a tus proyecto a tu negocio. </p>
       </div>
+
+      <img class="img-thumbnail mb-4 p-3"
+        src="https://firebasestorage.googleapis.com/v0/b/imagenes-e192b.appspot.com/o/tienda%20virtual%2010.8.jpg?alt=media&token=3757e268-a7ad-4fc1-9f6a-b5ac0c720ec2"
+        alt="Image">
+
+      <div class="text-center"></div>
+      <section><a href="" class="btn btn-lg btn-primary mt-2">Aprende más</a>
+
     </div>
-    </section>
+  </div>
+  </section>
   </div>
   </div>
   <!-- Features End -->
@@ -549,9 +585,10 @@
     <p class="text-white mb-4">Suscríbete y recibe nuestro último artículo en tu bandeja de entrada
     </p>
     <form class="form-inline justify-content-center mb-5">
-      <div class="input-group">
-        <input type="text" class="form-control-lg" placeholder="Tu correo electrónico">
+      <div class="text-center">
+        <input type="text center" class="form-control-lg" placeholder="Tu correo electrónico">
         <div class="input-group-append">
+          <br>
           <button class="btn btn-secondary" type="submit">Suscribete</button>
         </div>
       </div>
