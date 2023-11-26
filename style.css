@@ -1,0 +1,8 @@
+/* Estilo para ocultar el menú */
+.hidden {
+    display: none;
+}
+ /* Estilo personalizado para ajustar el espaciado de letras */
+ .custom-letter-spacing {
+    letter-spacing: -0.5px; /* Puedes ajustar este valor según tu preferencia */
+  }
