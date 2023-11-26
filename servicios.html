@@ -8,7 +8,7 @@
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
-  <title>Tienda virtual.com</title>
+  <title>Tienda virtual.Blue</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -338,6 +338,37 @@
     .carousel-caption {
       background-color: rgb(78, 9, 228);
     }
+    
+    /* Estilos para la barra de búsqueda */
+   .search-bar {
+    position: absolute;
+    bottom: 20px; /* Ajusta la posición vertical de la barra de búsqueda */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente para la barra de búsqueda */
+  }
+
+  .search-bar input[type="text"] {
+    width: calc(100% - 80px); /* Ajusta el ancho del input */
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    margin-right: 5px;
+  }
+
+  .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4a4a4a;
+    color: white;
+    cursor: pointer;
+  }
   </Style>
 
 </head>
@@ -350,7 +381,7 @@
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-           
+
             <!-- Mobile menu button-->
             <button type="button"
               class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
@@ -391,7 +422,9 @@
                 <a href="index.html" class="bg-white-800 text-white rounded-md px-3 py-2 text-sm font-medium"
                   aria-current="page">Inicio </a>
 
-                <a href="sobrenosotros.html" class="text-white hover:bg-white-0 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Sobre Nosotros </a>
+                <a href="sobrenosotros.html"
+                  class="text-white hover:bg-white-0 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Sobre
+                  Nosotros </a>
 
                 <a href="servicios.html"
                   class="text-white hover:bg-white-0 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Servicios</a>
@@ -401,7 +434,7 @@
                 </a>
               </div>
             </div>
-            
+
           </div>
           <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <button type="button"
@@ -423,9 +456,7 @@
                   id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                   <span class="absolute -inset-1.5"></span>
                   <span class="sr-only">Open user menu</span>
-                  <img class="h-8 w-8 rounded-full"
-                    src="img/logo (2).png"
-                    alt="">
+                  <img class="h-8 w-8 rounded-full" src="img/logo (2).png" alt="">
                 </button>
               </div>
             </div>
@@ -475,31 +506,22 @@
   <br>
 
   <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h2 class="text-center"> TENER EL CONTROL DE TU NEGOCIO</H2>
-          <img src="img/foto-15.jpg" class="img-fluid">
-        </div>
-        <div class="col-md-6">
-          <h2 class="text-center"> PODRAS VER CRECER TU NEGOCIO </H2>
-          <img src="img/foto-16.jpg" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section>
-    <p style="margin: 60px;"></p>
-    <div class="container">
-       <h1 class="text-blue-500 text-7xl custom-letter-spacing"> Te damos la bienvenida al servicio al cliente de Tienda Virtual.Blue</h1>
-       <br>
-      <p class = "text-4xl">Nuestro servicio de atención al cliente es excepcional!</p>
-      <p class = "text-2xl" >En nuestro compromiso ofrecerte la mejor experiencia, nos enorgullece presentarte un servicio dedicado y personalizado que supera tus expectativas. ¿Qué nos distingue?
-      ¿Con qué te gustaría recibir ayuda hoy? Puedes encargarte rápidamente de la mayoría de las cosas aquí, o
-       conectarte con nosotros cuando sea necesario.</p>
-    </div>
-  </section>
+    <section>
+      <p style="margin: 60px;"></p>
+      <div class="container">
+        <h1 class="text-blue-500 text-7xl custom-letter-spacing"> Te damos la bienvenida al servicio al cliente de
+          Tienda Virtual.Blue</h1>
+        <br>
+        <p class="text-4xl">Nuestro servicio de atención al cliente es excepcional!</p>
+        <p class="text-2xl">En nuestro compromiso ofrecerte la mejor experiencia, nos enorgullece presentarte un
+          servicio dedicado y personalizado que supera tus expectativas. ¿Qué nos distingue?
+          ¿Con qué te gustaría recibir ayuda hoy? Puedes encargarte rápidamente de la mayoría de las cosas aquí, o
+          conectarte con nosotros cuando sea necesario.</p>
+      </div>
+
+    </section>
+
   <br>
   <br>
 
@@ -510,47 +532,69 @@
         <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div class="flex flex-col items-center justify-between xl:flex-row">
             <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">Grandes y alegres posibilidades <br class="hidden md:block" />
+              <h2
+                class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+                Nuestra Biblioteca <br class="hidden md:block" />
 
-                <span class="text-blue-500"> Para crecer tú negocio </span>
+                <span class="text-blue-500"> ¡ de ayuda !</span>
               </h2>
-              <p class="max-w-xl mb-4 text-base text-white md:text-lg">
-                Atención centrada en ti: Nuestro equipo está aquí para escucharte, entender tus necesidades y ofrecerte
-                soluciones que se adapten a tus requerimientos específicos.
-              </p>
-              <p class="max-w-xl mb-4 text-base text-white md:text-lg">
-                Profesionalismo y experiencia: Contamos con un equipo altamente capacitado y experimentado que te
-                brindará asistencia experta en cada interacción, asegurando respuestas precisas y soluciones efectivas.
-              </p>
 
-              <p class="max-w-xl mb-4 text-base text-white md:text-lg">
-                Rapidez y eficiencia: Valoramos tu tiempo. Nos comprometemos a resolver tus consultas de manera ágil y
-                eficiente, sin comprometer la calidad del servicio.
-              </p>
+              <!-- Barra de búsqueda -->
+              <div class="search-bar">
+                   <input type="text" placeholder="Buscar...">
+                   <button>Buscar</button>
+                 </div>
+                 <br>
+               
+            <p class="max-w-xl mb-4 text-base text-white md:text-lg">
+              ¿Dónde está mi pedido?
+            </p>
+            <p class="max-w-xl mb-4 text-base text-white md:text-lg">
+              Envíos y entregas
+            </p>
 
-              <p class="max-w-xl mb-4 text-base text-white md:text-lg">
-                Empatía y cordialidad: Nos esforzamos por crear conexiones genuinas contigo. Queremos que te sientas
-                escuchado, valorado y satisfecho en cada interacción.
-              </p>
+            <p class="max-w-xl mb-4 text-base text-white md:text-lg">
+              Devoluciones, reembolsos y soporte con los productos
+            </p>
 
-              <p class="max-w-xl mb-4 text-base text-white md:text-lg">
-                Innovación continua: Estamos en constante evolución para ofrecerte las últimas herramientas y
-                tecnologías que mejoren tu experiencia, manteniéndonos a la vanguardia en la atención al cliente.
-              </p>
-              <a href="/" aria-label=""
-                class="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-teal-accent-400 hover:text-teal-accent-700">
-                Learn more
-                <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
-                  <path
-                    d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l6-6a1,1,0,0,0,0-.708l6-6a1,1,0,0,0-.708,0z">
-                  </path>
-                </svg>
-              </a>
-            </div>
+            <p class="max-w-xl mb-4 text-base text-white md:text-lg">
+              Administrar Tu Cuenta
+            </p>
 
+            <p class="max-w-xl mb-4 text-base text-white md:text-lg">
+              Seguridad y Privacidad
+            </p>
+
+            <p class="max-w-xl mb-4 text-base text-white md:text-lg">
+              Pago, Precios y Promociones
+            </p>
+
+            <p class="max-w-xl mb-4 text-base text-white md:text-lg">
+              Servicios para productos grandes y pesados
+            </p>
+
+            <p class="max-w-xl mb-4 text-base text-white md:text-lg">
+              Cuentas de Blue
+            </p>
+
+            <p class="max-w-xl mb-4 text-base text-white md:text-lg">
+              Otros servicios
+            </p>
+
+            <a href="/" aria-label=""
+              class="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-teal-accent-400 hover:text-teal-accent-700">
+              Learn more
+              <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
+                <path
+                  d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l6-6a1,1,0,0,0,0-.708l6-6a1,1,0,0,0-.708,0z">
+                </path>
+              </svg>
+            </a>
           </div>
+
         </div>
       </div>
+    </div>
     </div>
     </div>
     </div>
@@ -561,107 +605,6 @@
   </section>
   <!-- inicio del contenedor -->
 
-
-
-  <section>
-    <div class="container-fluid py-5 py-lg-0 feature">
-      <div class="row py-5 py-lg-0">
-        <div class="col-lg-4 p-0">
-          <div class="feature-item d-flex align-items-center border-right px-5 mb-4 mb-lg-0">
-            <i class="flaticon-policeman display-3 text-primary mr-4"></i>
-            <div class="">
-              <h5 class="mb-3"></h5>
-              <p class="m-0">
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <section> <!-- Testimonial Start -->
-          <div class="container-fluid py-5">
-            <div class="container py-5">
-              <div class="row align-items-center">
-                <div class="col-lg-7 px-3 pb-lg-4">
-                  <img class="img-fluid w-300" width="700px" src="img/foto-16.jpg" alt="" />
-                </div>
-                <div class="col-lg-5">
-                  <div class="owl-carousel testimonial-carousel">
-                    <div class="position-relative">
-                      <h1 class="mb-4"> NEGOCIADORES </h1>
-                      <p class="m-0"> Nos complace presentar nuestra propuesta para proporcionar servicios de
-                        negociación profesional que garanticen acuerdos exitosos y beneficiosos para su empresa. En
-                        [Nombre de la Empresa/Equipo de Negociadores], nos especializamos en ofrecer soluciones
-                        personalizadas y estratégicas que se adaptan a sus necesidades específicas de negociación.
-                        Esta propuesta destaca las fortalezas, la experiencia y el enfoque centrado en el cliente del
-                        equipo de negociadores, invitando a la empresa cliente a explorar la colaboración para lograr
-                        acuerdos exitosos. Recuerda adaptarla según las necesidades y características específicas de tu
-                        equipo y del cliente al que te estás dirigiendo.
-                      </p>
-                    </div>
-
-                    <br>
-
-                    <div class="col-lg-14">
-                      <div class="owl-carousel testimonial-carousel">
-                        <div class="position-relative">
-                          <h1 class="mb-4"> INVERSIONISTAS </h1>
-                          <p class="m-0"> Nos complace presentarles una oportunidad de inversión emocionante y lucrativa
-                            en [Nombre de tu Proyecto/Empresa]. Nuestra propuesta está diseñada para ofrecer una visión
-                            clara de las oportunidades y los beneficios que esta inversión puede proporcionar.
-                            Visión General del Proyecto/Empresa:
-                            Descripción breve y convincente de tu proyecto/empresa. Esto incluye su propósito, sector de
-                            actividad, mercado objetivo y cómo aborda una necesidad específica del mercado.
-                            Claro, redactar una propuesta para potenciales inversionistas es crucial para presentarles
-                            tu proyecto de manera clara y atractiva. Aquí te dejo un ejemplo de cómo podrías estructurar
-                            una propuesta de inversión.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Testimonial End -->
-        </section>
-
-        <!-- Acerca del inicio -->
-        <div class="container-fluid mb-5" style="background: font 1em sans-serif;">
-          <div class="row align-items-center">
-            <div class="col-lg-6 px-3">
-              <img width="700px" class="img-fluid" src="img/foto-14.jpg" alt="Image">
-            </div>
-            <div class="col-lg-6 py-5 py-lg-0 px-3 px-lg-5">
-              <h5 class="text-primary mb-3">Sobre nosotros</h5>
-              <h1 class="mb-4">SOMOS LIDERES DEL MERCADO GLOBAL</h1>
-              <p class="mb-4" "mt-4"> Hace más de una década, TIENDA VIRTUAL.BLUE, nació con la ambición de
-                transformarlos negocios
-                que aun no han sido reconocidos por la falta de expansión y apoyo en los traficos de mercado a nivel
-                mundial.
-                Nuestro enfoque es la satisfacción del cliente, la amplia oferta de productos de calidad y un fuerte
-                compromiso
-                con la seguridad de llevarlos al éxito. Hoy en día, TIENDA VIRTUAL.BLUE es una plataforma líder en
-                expansión en compras en
-                línea, respaldada porlos negocios de la bolsa de valores a nivel mundial.
-              </p>
-              <div class="row py-2">
-                <div class="col-sm-6">
-                  <i class="flaticon-approved display-3 text-primary"></i>
-                  <h5 class="mt-2"></h5>
-                  <p>
-                  </p>
-                </div>
-                <div class="col-sm-6">
-                  <i class="flaticon-medal display-3 text-primary"></i>
-                  <h5 class="mt-2"></h5>
-                  <p></p>
-                </div>
-              </div>
-              <a href="" class="btn btn-lg px-4 btn-primary">Aprende más</a>
-            </div>
-          </div>
-        </div>
-  </section>
 
   <section>
 

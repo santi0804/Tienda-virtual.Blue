@@ -6,3 +6,9 @@
  .custom-letter-spacing {
     letter-spacing: -0.5px; /* Puedes ajustar este valor según tu preferencia */
   }
+  /* Estilos adicionales para ajustar el tamaño de los botones */
+  .logo-button {
+    width: 150px; /* Ancho deseado */
+    height: 100px; /* Alto deseado */
+  }
+   
